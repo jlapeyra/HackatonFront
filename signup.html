@@ -34,7 +34,7 @@
                                 <input type="password" class="form-control" id="password2" placeholder="Repeat password">
                             </div>
                             <div class="text-center">
-                                <button type="button" class="btn btn-primary" onclick="window.open('drop_zone.html', '_self')">Sign up</button>
+                                <button type="button" class="btn btn-primary" onclick="clic(event)">Sign up</button>
                             </div>
                         </form>
                     </div>
@@ -46,7 +46,24 @@
 
     <script>
         function clic(event) {
-            window.open("https://www.codexworld.com/", "_self");
+            if (username.value.length === 0) {
+                alert("Please enter a username");
+            } else if (username.value.length < 4) {
+                alert("Username must be at least 4 characters");
+            } else if (! /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w+)+$/.test(email.value)) {
+                alert("Please enter a valid email");
+            } else if (password.value.length === 0) {
+                alert("Please enter a password");
+            } else if (password.value.length < 8) {
+                alert("Password must be at least 8 characters");
+            } else if (password2.value.length === 0) {
+                alert("Please repeat password");
+            } else if (password.value != password2.value) {
+                alert("The two passwords are not equal")
+            } else {
+                alert("Signed in, please check your inbox for the confimation email.")
+                window.open("drop_zone.html", "_self");
+            }
         }
     </script>
 </body>

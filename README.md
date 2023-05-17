@@ -6,8 +6,11 @@ This repository contains the solution to the challenge [Drop zone](https://nuwe.
 - [Login](login.html)
 - [Drop zone](drop_zone.html)
 
+Note that the back end is missing, thus the app is incomplete.
+
 
 
 Link to GitHub repository: [https://github.com/jlapeyra/HackatonFront](https://github.com/jlapeyra/HackatonFront)
 
 Link to GitHub page: [https://jlapeyra.github.io/HackatonFront/](https://jlapeyra.github.io/HackatonFront/)
+
