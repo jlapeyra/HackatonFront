@@ -8,6 +8,6 @@ This repository contains the solution to the challenge [Drop zone](https://nuwe.
 
 
 
-Link to GitHub repository: [https://github.com/jlapeyra/HackatonFront)](https://github.com/jlapeyra/HackatonFront)
+Link to GitHub repository: [https://github.com/jlapeyra/HackatonFront](https://github.com/jlapeyra/HackatonFront)
 
 Link to GitHub page: [https://jlapeyra.github.io/HackatonFront/](https://jlapeyra.github.io/HackatonFront/)
