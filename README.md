@@ -2,7 +2,7 @@
 
 This repository contains the solution to the challenge [Drop zone](https://nuwe.io/dev/competitions/fundacion-esplai-hackathon/fundacion-esplai-hackathon-reto-frontend) i.e. the source code for the front end of an app to upload files. The pages are:
 
-- [Register](register.html)
+- [Sign in](signin.html)
 - [Login](login.html)
 - [Drop zone](drop_zone.html)
 
