@@ -1,12 +1,20 @@
-#dropArea {
+/*#main {
     width: 300px;
     height: 200px;
+    margin: 50px auto;
+}
+
+#dropArea {
+    width: 100%;
+    height: 100%;
     border: 2px dashed #ccc;
     text-align: center;
     padding: 20px;
     font-family: Arial, sans-serif;
-    margin: 50px auto;
+    
 }
+
+
 
 #dropArea p {
     margin: 0;
@@ -16,5 +24,29 @@
 
 #dropArea.highlight {
     background-color: #e9f5fe;
+
+}*/
+
+
+#dropArea {
+    width: 300px;
+    height: 300px;
+    border: 2px dashed #ccc;
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
     
+    font-size: 18px;
+    color: #999;
+}
+
+.btn {
+    text-align: center;
+    width: 300px;
+    margin-top: 1em;
+}
+
+
+#dropArea.highlight {
+    background-color: #e9f5fe;
 }

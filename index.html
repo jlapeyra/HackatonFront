@@ -4,16 +4,25 @@
 <head>
     <title>Drag and Drop</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 
 <body>
-    <div id="dropArea"
-    ondrop="dropHandler(event);" 
-    ondragover="dragOverHandler(event);"
-    ondragenter="dragEnterHandler(event);"
-    ondragleave="dragLeaveHandler(event);">
-        <p>Drag files here</p>
+    <div class="row justify-content-center mt-5">
+        <div class="col-5">
+            <div id="dropArea"
+            ondrop="dropHandler(event);" 
+            ondragover="dragOverHandler(event);"
+            ondragenter="dragEnterHandler(event);"
+            ondragleave="dragLeaveHandler(event);">
+                Drag files here
+            </div>
+
+            <button type="button" class="btn btn-primary" onclick="clic(event)">Upload</button>
+
+        </div>
     </div>
+
 
     <script src="script.js"></script>
 </body>
